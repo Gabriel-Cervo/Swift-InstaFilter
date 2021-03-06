@@ -54,6 +54,9 @@
                                     <constraint firstAttribute="height" constant="44" id="mlw-vC-kbE"/>
                                 </constraints>
                                 <state key="normal" title="Change Filter"/>
+                                <connections>
+                                    <action selector="changeFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7pY-Ck-NEi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVj-v8-K0o">
                                 <rect key="frame" x="339" y="674" width="60" height="44"/>
